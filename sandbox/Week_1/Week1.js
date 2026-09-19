@@ -6,7 +6,9 @@ let radius = 3;
 const one = 1;
 const two = '2';
 
-
+console.log(one);
+console.log(two);
+console.log(pi);
 let course = "WDD131"; //global scope
 if (true) {
     let student = "Spencer";
