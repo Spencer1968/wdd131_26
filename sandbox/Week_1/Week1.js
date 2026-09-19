@@ -8,7 +8,7 @@ const two = '2';
 
 console.log(one);
 console.log(two);
-console.log(pi);
+console.log(PI);
 let course = "WDD131"; //global scope
 if (true) {
     let student = "Spencer";
