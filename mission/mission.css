@@ -12,7 +12,7 @@ body {
 .container {
     max-width: 680px;
     width: 90%;
-    height: 685px;
+    /* height: 685px;  REMOVE OR COMMENT OUT THIS LINE */
     border: 1px solid #777777;
     margin: 30px 50px;
     padding: 40px 110px;
@@ -78,4 +78,28 @@ li {
     margin-left: 170px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+/* Apply dark theme styles to body and child elements */
+body.dark-theme {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+body.dark-theme .container {
+    border-color: #ffffff;
+}
+
+body.dark-theme h1,
+body.dark-theme #top-part,
+body.dark-theme li {
+    color: white;
+}
+
+select {
+    pointer-events: auto;
+    z-index: 10;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
