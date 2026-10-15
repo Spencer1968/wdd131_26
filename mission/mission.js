@@ -11,8 +11,8 @@ function changeTheme() {
     }
 
     if (img.src.includes('BYUI-Logo-Dark.png')) {
-        img.src = 'BYUI-Logo-Light.png';
-    } else if (img.src.includes('BYUI-Logo-Light.png')) {
+        img.src = 'BYUI-Logo.webp';
+    } else if (img.src.includes('BYUI-Logo.webp')) {
         img.src = 'BYUI-Logo-Dark.png';
     }
 }
