@@ -78,9 +78,45 @@ nav ul li a {
 footer {
     padding-top: 20px;
     padding-bottom: 13px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 40px;
     text-align: center;
     border-top: 3px solid rgb(226, 226, 69);
     font-size: 18px;
+}
+
+@media (min-width: 600px) {
+    #main-content .article {
+        padding: 0px 40px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto auto;
+        margin-bottom: 40px;
+    }
+
+    .book-info {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: right;
+        font-size: 17px;
+        margin-right: 20px;
+    }
+
+    .book {
+        grid-column: 2/3;
+        border-left: 3px solid rgb(226, 226, 69);
+        padding-left: 40px;
+        text-align: left;
+    }
+
+    .book img {
+        margin-left: 30%;
+    }
+
+    .book p {
+        margin-right: 20%;
+    }
+
+    .space {
+        margin-bottom: 40px;
+    }
 }
