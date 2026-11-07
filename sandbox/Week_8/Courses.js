@@ -84,16 +84,3 @@ function setSections(sections){
 
 setHeader(aCourse);
 setSections(aCourse.sections);
-
-function enrollHandler(ev) {
-    console.log(ev);
-    if (ev.target.id === "enrollStudent"){
-        theSection = document.querySelector("#sectionNumber").value();
-        theSection.enrolled++;
-    } else if (ev.target.id === "dropStudent"){
-        theSection = document.querySelector("#sectionNumber").value()
-        theSection.enrolled--;
-    }
-}
-
-document.querySelector("#enrollStudent").addEventListener("click", enrollHandler)
