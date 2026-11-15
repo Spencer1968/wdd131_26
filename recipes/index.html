@@ -23,28 +23,48 @@
 
     <!-- One Apple Touch Icon (iOS home screen) -->
     <link rel="apple-touch-icon" href="images/apple-crisp-img.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="recipes.css">
                     
 </head>
 <body>
-    <span
-    class="rating"
-    role="img"
-    aria-label="Rating: 4 out of 5 stars"
-    >
-        <span aria-hidden="true" class="icon-star">⭐</span>
-        <span aria-hidden="true" class="icon-star">⭐</span>
-        <span aria-hidden="true" class="icon-star">⭐</span>
-        <span aria-hidden="true" class="icon-star">⭐</span>
-        <span aria-hidden="true" class="icon-star-empty">☆</span>
-    </span>
+    <header id="site-header">
+        <img src="images/recipe-book-img.png" alt="Recipe Icon" id="recipe-icon">
+        <span>RECIPEBOOK</span>
+    </header>
+    <div id="search-bar">
+        <input type="text" placeholder="Find a recipe" id="search-input" img-src="images/search-img.svg">
+        <img src="images/search-img.svg" alt="search icon" id="search-icon">
+    </div>
+    <div id="recipe-card">
+        <img src="images/apple-crisp-img.jpg" alt="Apple Crisp" id="apple-img">
+        <h1>Apple Crisp</h1>
+        <span
+        class="rating"
+        role="img"
+        aria-label="Rating: 4 out of 5 stars"
+        >
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star-empty">☆</span>
+        </span>
+    </div>
 </body>
 <footer>
-    <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
     <div class="social">
         <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
         <a href="#"><img src="images/instagram_icon-img.svg" alt="instagram icon"></a>
         <a href="#"><img src="images/youtube_icon-img.svg" alt="youtube icon"></a>
         <a href="#"><img src="images/pinterest_icon-img.svg" alt="pinterest icon"></a>
     </div>
+    <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
 </footer>
 </html>
