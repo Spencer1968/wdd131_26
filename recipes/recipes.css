@@ -1,9 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 img {
     width: 30px;
 }
 
 #apple-img {
-    width: 600px;
+    width: 390px;
 }
 
 footer {
@@ -17,7 +23,7 @@ h1 {
 }
 
 #site-header {
-    font-size: 40px;
+    font-size: 70px;
     img {
         width: 60px;
     }
@@ -63,4 +69,23 @@ footer {
     width: 22px;
     height: 22px;
     cursor: pointer;
+}
+
+#recipe-card {
+    width: 425px;
+    height: 450px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+    #tag {
+        justify-self: flex-start;
+    }
+}
+
+#tag p{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(194, 194, 194);
 }
